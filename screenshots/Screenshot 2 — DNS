@@ -1,0 +1,9 @@
+Filtro aplicado: dns.flags.response == 1
+
+A análise de respostas DNS permitiu observar o comportamento de resolução de nomes do host.
+
+Ao inspecionar um dos pacotes e utilizar a função "Follow UDP Stream", foi possível identificar o hostname da máquina:
+
+DESKTOP-L8C5GSJ
+
+Esse tipo de informação é útil para correlacionar atividades de rede com o dispositivo comprometido.
