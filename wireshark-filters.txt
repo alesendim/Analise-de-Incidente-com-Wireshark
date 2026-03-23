@@ -1,0 +1,5 @@
+# HTTP activity
+http.request.method == "GET"
+
+# DNS responses
+dns.flags.response == 1
