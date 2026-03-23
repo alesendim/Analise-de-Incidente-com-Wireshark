@@ -1,0 +1,7 @@
+Filtro aplicado: dns.flags.response == 1
+
+A partir de um pacote DNS, foi possível acessar a camada Ethernet II e identificar o endereço MAC de origem:
+
+00:d0:b7:26:4a:74
+
+O endereço MAC permite a identificação única do dispositivo dentro da rede local, reforçando a confirmação do host infectado.
