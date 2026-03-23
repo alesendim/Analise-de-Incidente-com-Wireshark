@@ -1,0 +1,9 @@
+Filtro aplicado: http.request.method == "GET"
+
+Este filtro foi utilizado para identificar requisições HTTP realizadas na rede. Foi observado que apenas um endereço IP aparecia como origem das requisições:
+
+10.1.17.215
+
+Esse comportamento é relevante, pois malwares frequentemente realizam conexões HTTP para comunicação externa (C2, download de payload, etc.).
+
+Com base nisso, este IP foi identificado como o host potencialmente infectado.
